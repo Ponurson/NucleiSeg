@@ -5,7 +5,7 @@ works with tiff files(multitiff). There are several modes for different kinds of
 
 'tile': returns list of seperate 3d nuclei in numpy arrays extracted from a tilescan(previolsy stiched), can work with multiple channels
 
-'live': returns list of seperate 3d nuclei in numpy arrays but as a timeseries, extracted from multiposition imaging(multiple files), multiple channels
+'live': returns list of seperate 3d nuclei in numpy arrays but as a timeseries of tracked nuclei, extracted from multiposition imaging(multiple files), multiple channels
 
 'data','NB': loads previously segmented images of nuclei saved in multiple files \n
 
